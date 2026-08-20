@@ -1,4 +1,4 @@
-# MyEngine — a UCI chess engine in C++
+# A UCI chess engine in C++
 
 A from-scratch chess engine that speaks the **UCI (Universal Chess Interface)**
 protocol — the same protocol Stockfish uses. This is how real engines are
@@ -56,9 +56,9 @@ Any UCI-compatible GUI will work — this is the standard way to "import" a
 C++ chess engine:
 
 - **Arena** (free, Windows/Linux) — Engines menu → Install New Engine → point
-  it at `myengine`.
+  it at `chess-engine`.
 - **CuteChess** (free, cross-platform, good for engine-vs-engine testing) —
-  Settings → Engines → Add → point at `myengine`.
+  Settings → Engines → Add → point at `chess-engine`.
 - **En Croissant** (free, modern cross-platform GUI).
 - **ChessBase / Fritz** (Windows) — Engine → Create UCI Engine.
 - **BanksiaGUI**, **XBoard/WinBoard** (via polyglot adapter), etc.
