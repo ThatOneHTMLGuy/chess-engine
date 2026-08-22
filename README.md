@@ -37,7 +37,7 @@ Requires a C++17 compiler.
 make
 ```
 
-This produces the `myengine` executable. There's also a `perft` test binary
+This produces the `chess-engine` executable. There's also a `perft` test binary
 you can build for validating move generation on any position:
 
 ```bash
