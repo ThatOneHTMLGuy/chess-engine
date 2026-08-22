@@ -92,8 +92,8 @@ int main(int argc, char** argv) {
         iss >> cmd;
 
         if (cmd == "uci") {
-            std::cout << "id name MyEngine 1.0\n";
-            std::cout << "id author Claude\n";
+            std::cout << "id name chess engine\n";
+            std::cout << "id author ThatOneHTMLGuy\n";
             std::cout << "option name Hash type spin default 64 min 1 max 4096\n";
             std::cout << "option name Threads type spin default 1 min 1 max 1\n";
             std::cout << "uciok" << std::endl;
