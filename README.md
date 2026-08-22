@@ -1,4 +1,4 @@
-# A UCI chess engine in C++
+# Xenon — a UCI chess engine in C++
 
 A from-scratch chess engine that speaks the **UCI (Universal Chess Interface)**
 protocol — the same protocol Stockfish uses. This is how real engines are
@@ -37,7 +37,7 @@ Requires a C++17 compiler.
 make
 ```
 
-This produces the `chess-engine` executable. There's also a `perft` test binary
+This produces the `xenon` executable. There's also a `perft` test binary
 you can build for validating move generation on any position:
 
 ```bash
@@ -56,9 +56,9 @@ Any UCI-compatible GUI will work — this is the standard way to "import" a
 C++ chess engine:
 
 - **Arena** (free, Windows/Linux) — Engines menu → Install New Engine → point
-  it at `chess-engine`.
+  it at `xenon`.
 - **CuteChess** (free, cross-platform, good for engine-vs-engine testing) —
-  Settings → Engines → Add → point at `chess-engine`.
+  Settings → Engines → Add → point at `xenon`.
 - **En Croissant** (free, modern cross-platform GUI).
 - **ChessBase / Fritz** (Windows) — Engine → Create UCI Engine.
 - **BanksiaGUI**, **XBoard/WinBoard** (via polyglot adapter), etc.
