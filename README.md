@@ -1,3 +1,5 @@
+![Xenon](xenon.png)
+
 # Xenon — a UCI chess engine in C++
 
 A from-scratch chess engine that speaks the **UCI (Universal Chess Interface)**
